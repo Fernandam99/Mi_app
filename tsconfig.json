@@ -1,0 +1,16 @@
+{
+  "extends": "./node_modules/expo/tsconfig.base.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "NodeNext",
+    "jsx": "react-jsx",
+    "jsxImportSource": "nativewind",
+    "strict": true,
+    "moduleResolution": "NodeNext",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
+
