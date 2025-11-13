@@ -1,8 +1,8 @@
 import { SafeAreaView, ScrollView, View, Text, Image, TouchableOpacity } from 'react-native';
 import { useState } from 'react';
-import { SkillCard } from './src/components/SkillCard';
-import { ProjectCard } from './src/components/ProjectCard';
-import { ExperienceCard } from './src/components/ExperienceCard';
+import { SkillCard } from './components/SkillCard';
+import { ProjectCard } from './components/ProjectCard';
+import { ExperienceCard } from './components/ExperienceCard';
 import {
   globalStyles,
   headerStyles,
