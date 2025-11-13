@@ -128,7 +128,7 @@ export default function App() {
         {/* ========== AVATAR ========== */}
         <View style={avatarStyles.container}>
           <Image
-            source={personalInfo.avatar}  
+            source={personalInfo.avatar} 
             style={avatarStyles.image}
           />
         </View>

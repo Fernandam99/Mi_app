@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const globalStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0b0b0b', // fondo negro profundo
+    backgroundColor: '#0b0b0b', // fondo 
   },
   scrollView: {
     paddingHorizontal: 20,
@@ -18,7 +18,7 @@ export const headerStyles = StyleSheet.create({
   title: {
     fontSize: 26,
     fontWeight: 'bold',
-    color: '#ff003c', // rojo eléctrico
+    color: '#ff003c', 
     textShadowColor: '#910027',
     textShadowOffset: { width: 2, height: 2 },
     textShadowRadius: 6,
@@ -36,7 +36,7 @@ export const avatarStyles = StyleSheet.create({
     height: 130,
     borderRadius: 65,
     borderWidth: 3,
-    borderColor: '#ff003c', // rojo sangre
+    borderColor: '#ff003c', 
     shadowColor: '#ff003c',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.6,
