@@ -23,16 +23,17 @@ const styles = StyleSheet.create({
   card: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#fafafa',
+    backgroundColor: '#1a1a1a',
     borderRadius: 10,
     padding: 10,
     marginVertical: 5,
     borderWidth: 1,
-    borderColor: '#ddd',
+    borderColor: '#ff003c',
   },
   emoji: {
     fontSize: 24,
     marginRight: 10,
+    color: '#ff4f81',
   },
   textContainer: {
     flexDirection: 'column',
@@ -40,10 +41,10 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#f5f5f5',
   },
   level: {
     fontSize: 14,
-    color: '#666',
+    color: '#a8a8a8',
   },
 });
