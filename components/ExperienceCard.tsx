@@ -16,8 +16,8 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
 }) => {
   return (
     <View style={styles.card}>
-      <Text style={styles.company}>{company}</Text>
       <Text style={styles.position}>{position}</Text>
+      <Text style={styles.company}>{company}</Text>
       <Text style={styles.period}>{period}</Text>
       <Text style={styles.description}>{description}</Text>
     </View>
@@ -26,31 +26,31 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#fafafa',
+    backgroundColor: '#1a1a1a',
     borderRadius: 10,
     padding: 12,
     marginVertical: 6,
     borderWidth: 1,
-    borderColor: '#ddd',
-  },
-  company: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#333',
+    borderColor: '#ff003c',
   },
   position: {
-    fontSize: 15,
-    color: '#444',
-    marginTop: 3,
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#f5f5f5',
+  },
+  company: {
+    fontSize: 14,
+    color: '#ff4f81',
+    marginTop: 2,
   },
   period: {
     fontSize: 13,
-    color: '#777',
-    marginTop: 3,
+    color: '#a8a8a8',
+    marginTop: 2,
   },
   description: {
     fontSize: 14,
-    color: '#555',
-    marginTop: 5,
+    color: '#f5f5f5',
+    marginTop: 6,
   },
 });
